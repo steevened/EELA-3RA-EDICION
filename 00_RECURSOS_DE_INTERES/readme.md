@@ -5,4 +5,4 @@ A medida que avance el curso pueden surgir dudas sobre como solucionar determina
 
 ### Importante
 Vamos a seguir este formato:
-Dentro de la carpeta 00_RECURSOS_DE_INTERES, crear un archivo que se llame <titulo_pregunta.md> dentro de este archivo escribir la duda que tengas.
+Dentro de la carpeta ```00_RECURSOS_DE_INTERES```, crear un archivo que se llame ```titulo_pregunta.md``` dentro de este archivo escribir la duda que tengas.
