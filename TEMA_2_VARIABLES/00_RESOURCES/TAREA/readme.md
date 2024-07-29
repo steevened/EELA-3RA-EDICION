@@ -1,6 +1,9 @@
 Resumen de aprendizaje
 ========
 
+## Instrucciones
+Para resolver esto, dentro de la carpeta con ```TU_NOMBRE``` vamos a crearnos una carpeta que se va a llamar ```TAREA``` y dentro de esta carpeta agrega un archivo llamado ```variables.dart```
+
 ## 1. Teoría
 
 Mira el siguiente código, analizalo y comentame que errores puede tener y como lo solventarías.
