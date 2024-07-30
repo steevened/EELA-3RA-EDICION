@@ -7,7 +7,8 @@ todas las características que encontramos en el lenguaje dart:
 
 CARACTERÍSTICA:
 -Fuertemente tipado.
--Todo es un objeto
+-Todo es un objeto.
+-Permite documentación de código con hipertexto.
 */
 
 /*
