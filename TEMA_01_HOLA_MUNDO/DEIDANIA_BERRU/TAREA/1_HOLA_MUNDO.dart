@@ -17,6 +17,7 @@ permite completar
  2.- para una mejor claridad se debe utilizar el  void
  3.- println no existe en dart el comanto correcto es dart
  4.- falte el ; despues de cada sentencia
+ 5.- los comentarios  para documentacion van con ///
  el codigo correcto es
 */
 void main()
