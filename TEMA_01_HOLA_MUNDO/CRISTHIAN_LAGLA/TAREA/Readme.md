@@ -12,6 +12,9 @@ En clase vamos a comentar mediante el chat, todas las características que encon
 * ¿Que otras conocemos?
 
 * Necesita una funcion MAIN
+* Compatible con sentencias HTML para comentarios
+* Usa \n para saltos de linea 
+* El codigo siempre debe de esta dentro del cuerpo de la funcion
 
 
 
