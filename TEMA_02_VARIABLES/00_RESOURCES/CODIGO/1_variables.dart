@@ -1,7 +1,21 @@
+/// Variable declarada globalmente
+/// Se utiliza para definir una variable que puede ser accedida desde cualquier parte del código, es decir, desde cualquier función.
+/// Se recomienda que siempre sea constante.
+const double miVariableGlobal = 10.0;
+
 main() {
   /// [var] es una palabra reservada para declarar una variable en Dart.
-  /// Este valor puede ser cambiado.
+  /// Este valor puede ser cambiado de valor mas no de tipo de dato.
+  /// Este valor infiere el tipo de dato
   var name = "Richar";
+  // name = "Cangui";
+  // name = 25; // Aquí nos mostrará un error porque el tipo de dato no es el mismo
+
+  /// [dynamic] es una palabra reservada para declarar una variable en Dart.
+  /// Este valor puede ser cambiado de valor y de tipo de dato.
+  dynamic dynamicDato = "Cangui";
+  dynamicDato = 25; // Nota como aquí cambiamos el tipo de dato y el editor no nos muestra error
+
 
   /// [final] es una palabra reservada para declarar una variable en Dart.
   /// Este valor no puede ser cambiado.
