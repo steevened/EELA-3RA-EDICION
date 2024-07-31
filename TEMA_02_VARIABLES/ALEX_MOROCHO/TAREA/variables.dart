@@ -7,7 +7,7 @@ void main() {
     pi = 3.3;
     // var
     var String balance = 20.20;
-    balance = 10,1;
+    balance = 10,1; 
 }
 //El codigo intenta asignar un string a una variable  int
 //Se  reasignar un valor a una constante,  esta mal
