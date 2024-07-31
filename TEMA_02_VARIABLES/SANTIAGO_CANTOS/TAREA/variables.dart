@@ -7,7 +7,7 @@
     final valor1 = "Es un string";
     final int valor2 = "Es un número"; -> no se puede asignar a un tipo int un valor tipo texto, se corrige cambiando el tipo de dato a string
     // const
-    const pi = 5; -> no se puede modificar el valor de una constante, para corregir deberiamos declarar la variable como final
+    const pi = 5; -> no se puede modificar el valor de una constante, para corregir deberiamos declarar la variable no como const ni final
                      para solucionar declaramos la variable del tipo double 
     pi = 3.3; -> no se puede asignar un valor de tipo doble a una variable que infirió tipo int por tomar un valor entero
     // var
@@ -25,7 +25,7 @@ void main (){
   final valor1 = "Es un string";
   final String valor2 = "Es un número";
   //const
-  final double pi = 5;
+  double pi = 5;
   pi = 3.3;
   //var
   double balance = 20.20;
