@@ -62,6 +62,3 @@ Si deseas conocer más sobre ``Pull Request`` te dejo este [recurso](https://www
 Trabaja con tu Repositorio
 git pull -> Toma todos los cambios 
 git push -> Envia los cambios a tu repo
-
-
-git fetch upstream
