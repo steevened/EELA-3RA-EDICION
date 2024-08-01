@@ -57,3 +57,11 @@ En este punto, tienes el repositorio local actualizado. Haz las adiciones necesa
 * En GitHub, haz una ``Pull Request`` o solicitd de cambios, para que pueda verificar tus ejercicios y aceptarlos en la rama master del repositorio original si todo está bien y no hay conflictos. El origen debe ser el repositorio de tu cuenta de GitHub y, el destino, este repositorio.
 
 Si deseas conocer más sobre ``Pull Request`` te dejo este [recurso](https://www.youtube.com/watch?v=9ZJ-K-zk_Go&t=13088s) y te animo a mirar todo el curso ya que está buenísimo y te va a ayudar a manejar tus proyectos de una manera óptima, mucha suerte aprendiendo! 😄
+
+
+Trabaja con tu Repositorio
+git pull -> Toma todos los cambios 
+git push -> Envia los cambios a tu repo
+
+
+git fetch upstream
