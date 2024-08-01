@@ -12,7 +12,8 @@ Uso Incorrecto del Separador Decimal:
 
 balance = 10,1; usa una coma en lugar de un punto para separar la parte decimal, lo cual es incorrecto en Dart. */
 
-// Corrección del código:
+// Corrección del código:}
+
 void main() {
   // final
   final String valor1 =
