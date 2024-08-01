@@ -1,4 +1,4 @@
-void main (){ 
+// void main (){ 
   /* Tarea
    
   Tema: Variables dart
@@ -27,7 +27,7 @@ void main (){
   c. var String balance = 20.20; -> No es una buena practica declarar sin comillas una variable de texto.
   d. var String balance = "20.20"; -> No se debe utilizar dos tipos de palabras para declarar una misma variable. (var y String) 
   */
-}
+// }
   void main() {
       // final
       final String valor1 = "Es un string";
