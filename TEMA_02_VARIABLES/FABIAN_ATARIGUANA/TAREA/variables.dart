@@ -44,7 +44,7 @@ void main() {
     */
     String balance = "20.20";
     balance = "10,1";
-}
+} 
 /*```
 
 * ¿Crees que estamos infiriendo correctamente el tipo de dato?
