@@ -23,4 +23,37 @@ void main() {
   final listaDeStrings = ['lunes', 'martes', 'miercoles', 'jueves'];
   print(lista);
   print(listaDeStrings);
+
+//listas se pueden manejar
+//agregar elementos
+//obtener la logitud de la lista
+//otras operaciones
+
+//Proceso de agregar elementos a la lista
+lista.add(6);
+print(lista);
+
+//Obtener el tamano de la lista
+print(lista.length);
+
+// Obtener un valor determinado de la lista
+// índices (1,2,3,4,5)
+// posición 0,1,2,3,4
+
+final posicion0=lista[0];
+print(posicion0);
+print(lista[2]);
+
+
+// remover elemento por el valor
+lista.remove(2);
+print(lista);
+//remover por el index
+lista.removeAt(2);
+// el primer elemento
+print(lista.first);
+// el último elemento
+print(lista.last);
+
+
 }
