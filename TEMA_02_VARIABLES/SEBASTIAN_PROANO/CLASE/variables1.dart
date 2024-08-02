@@ -10,7 +10,7 @@ Vamos a crear variables que representen de la mejor manera los siguientes concep
 Nota: Puedes agregar todos los datos como String, entre comillas "", ya que es el único tipo de dato que conocemos. */
 
 
-Tiempo de ejecución 10 min. 
+// Tiempo de ejecución 10 min. 
 void main() {
     // El nombre de un usuario
     // Se elige "userName" porque es común en la programación usar "user" para representar un usuario y "name" para el nombre.
@@ -44,3 +44,4 @@ userAge: Especifica claramente que la variable contiene la edad del usuario.
 speedOfLight: Describe de manera directa y precisa lo que representa la variable.
 primaryColor: Es común en el desarrollo de aplicaciones referirse al color principal con este término.
 cartTotal: Indica claramente que la variable contiene el total de precios en el carrito de compras.
+*/
