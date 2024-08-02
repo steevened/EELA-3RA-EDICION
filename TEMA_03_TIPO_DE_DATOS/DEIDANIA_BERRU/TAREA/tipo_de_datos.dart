@@ -29,17 +29,27 @@ Pista:
 * Implementa concatenación de strings. 
 */
 void main(){
-int uid = 0;
-String Nombre = 'Deidania';
-String Apellido = 'Berru';
-int edad = 54;
-String Direccion = 'Av. Mariana de Jesus';
-String Cedula = '1711167096';
-
-print("El usuario $uid se llama: $Nombre $Apellido y tiene $edad Años. Vive en $Direccion");
-
+final Map <String,dynamic> persona = {
+"uid"          : 1,
+"Nombre"       :"Deidania",
+"Apellido"     :"Berru",
+"edad"         : 54,
+"Direccion"    :"Av. Mariana de Jesus",
+"Cedula"       :'1711167096'
+};
+persona.addAll({"Telefono":"0998012298"});
+print(persona);
+// Opcion 1
+print("El usuario "+
+persona["uid"].toString()+
+" se llama:"+
+persona["Nombre"]+" "+persona["Apellido"] +
+" y tiene:"+persona["edad"].toString() +
+ " Años. Vive en "+
+ persona["Direccion"]);
+// Opcion 2
+print("El usuario ${persona["uid"].toString()} se llama: ${persona["Nombre"]} ${persona["Apellido"]} y tiene: ${persona["edad"].toString()} Años. Vive en ${persona["Direccion"]}");
 }
-
 
 
 /*
