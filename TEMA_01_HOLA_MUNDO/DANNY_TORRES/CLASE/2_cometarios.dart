@@ -1,4 +1,4 @@
-void main () {
+void main() {
   //comentario simple. Sirve para dar indicaciones especificas. Se usa para dejarle mensajes a desarrolladores
   /* Comentario de bloque. Se usa para comentarios largos. de varias lineas. 
   /// Comentario que se utiliza para documentar. 
@@ -14,5 +14,5 @@ void saludo() {
   print("VOY A SALUDAR");
 }
   }
-
-
+*/
+}

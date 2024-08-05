@@ -5,8 +5,9 @@
 void main(){
   print(' a  Hola mundo'+ '\nQue tal');
   print("Danny");
+  // saludo();
 }
-saludo();
+
 
 /// 
 /// # Este es un comentario de documentación
@@ -14,7 +15,7 @@ saludo();
 /// 
 /// Mas texto que puede servir para identificar algo; 
 /// 
-{
+
 // Shorcuts: 
  // macos -> command + /
  // 
@@ -26,16 +27,16 @@ saludo();
 
 
 // Analisis del codigo
-*main() {
-  print ("Hello Word");
-  }
+// *main() {
+//   print ("Hello Word");
+//   }
 
 
 // el asterisco. No tiene punto y coma 
 
- void main(){
-  print ("Hello Word");
-  }
+//  void main(){
+//   print ("Hello Word");
+//   }
 
 
 

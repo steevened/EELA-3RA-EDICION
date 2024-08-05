@@ -37,3 +37,4 @@ speedOfLight  La velocidado es un número entero.
 primaryColor  Los colores son códigos hexadecimales, caracteres.
 cartTotal los precios nonson enteros
 isAdult solo existen dos opciones verdadero o falso
+*/
