@@ -37,3 +37,4 @@ speedOfLight (int): La velocidad de la luz en kilómetros por segundo es un núm
 primaryColor (String): Los colores se representan con códigos hexadecimales, que son cadenas de caracteres, por lo que String es el tipo adecuado.
 cartTotal (double): Los precios pueden incluir centavos, por lo que double es el tipo adecuado para representar valores decimales.
 isAdult (bool): La pregunta "¿Soy mayor de edad?" se responde con sí o no (verdadero o falso), por lo que bool es el tipo adecuado.
+*/
