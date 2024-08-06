@@ -1,0 +1,21 @@
+//Caracteristicas del lenguaje dart:
+/// Es rapido y comodo. Tiene su propio complilador. Es un lenguaje orientado a objetos que coore sobre cualquier plataforma. 
+/// 
+
+
+// Analisis del codigo
+*main() {
+  print ("Hello Word");
+  }
+
+
+// el asterisco. No tiene punto y coma 
+
+ void main(){
+  print ("Hello Word");
+  }
+
+
+
+
+
