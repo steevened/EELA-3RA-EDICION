@@ -22,7 +22,7 @@ Escribir un programa que pregunte al usuario su renta anual y muestre por pantal
 |---------------|---------------|
 |Inaceptable    |0.0            |
 |Aceptable      |0.4            |
-|Meritorio	    |0.6 o más      |
+|Meritorio	|0.6 o más      |
 
 Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento, así como la cantidad de dinero que recibirá el usuario.
 

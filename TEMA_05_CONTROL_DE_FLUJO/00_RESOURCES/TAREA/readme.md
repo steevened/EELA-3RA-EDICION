@@ -1,7 +1,7 @@
 Resumen de aprendiaje
 =======
 ### Instrucciones
-Para resolver esto dentro de la carpeta con ```TU_NOMBRE``` vamos a crearnos una carpeta que se va a llamar ```CLASE``` y dentro de esta carpeta agrega un archivo llamado ```control_de_flujo.dart```
+Para resolver esto dentro de la carpeta con ```TU_NOMBRE``` vamos a crearnos una carpeta que se va a llamar ```TAREA``` y dentro de esta carpeta agrega un archivo llamado ```control_de_flujo_tarea.dart```
 
 ### Objetivo:
 * Aprender a utilizar entrada de datos por consola.
