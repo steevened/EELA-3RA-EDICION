@@ -1,10 +1,18 @@
-void main(){
+void main() {
   //Variables de tipo string -> nombre
   String nombre = 'Richar';
   //Variable de tipo int -> edad
   int edad = 28;
   //Varaible de tipo List<String> ['Lunes','Martes','Miercoles','Jueves','Viernes,'Sabado','Domingo']
-  List<String> clases = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'];
+  List<String> clases = [
+    'Lunes',
+    'Martes',
+    'Miercoles',
+    'Jueves',
+    'Viernes',
+    'Sabado',
+    'Domingo'
+  ];
 
   // Decir que nombre sea nulo
   // null
@@ -32,7 +40,7 @@ void main(){
   /// Vamos a utilizar la lista
   print(clases.length);
 
-  List<String?> clasesDeEstaSemana = ['Lunes',null,'Miercoles','Jueves'];
+  List<String?> clasesDeEstaSemana = ['Lunes', null, 'Miercoles', 'Jueves'];
   print(clasesDeEstaSemana.length);
 
   List<String>? clasesDeNavidad = null;
@@ -41,6 +49,7 @@ void main(){
   /// Controlar el valor null
   /// ?
   print(clasesDeNavidad?.length);
+
   /// variable tiene un valor si no extiende ese null al siguiente nivel
   /// The property 'length' can't be unconditionally accessed because the receiver can
   /// [1,2,3,4] -> 4
@@ -52,12 +61,13 @@ void main(){
   ///null no es muy amigable
   ///??? -> null aware
   List<String?>? clasesDeNavidad3 = null; // Note the '?' after 'String'
-  print(clasesDeNavidad3?.length ?? "No existe"); // Safely access the length (0 if null)
+  print(clasesDeNavidad3?.length ??
+      "No existe"); // Safely access the length (0 if null)
 
   final Map<String, dynamic> mapaDeEjemplo = {
-    'dias' : ['Lunes', null, 'Martes'],
-    'navidades':null,
-    'otros_dias':{
+    'dias': ['Lunes', null, 'Martes'],
+    'navidades': null,
+    'otros_dias': {
       'carnavales': 'Vacacion',
     },
   };
@@ -70,7 +80,5 @@ void main(){
   /// !
   print(clasesDeNavidad3!.length); // (Null check operator used on a null value)
 
-  ///
-
-
+  // print((mapaEjemplo!=null && mapaEjemplo!.isEmpty) ? 'si': 'no');
 }

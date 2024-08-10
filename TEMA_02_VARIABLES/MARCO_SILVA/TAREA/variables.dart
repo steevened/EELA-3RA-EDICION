@@ -29,6 +29,18 @@ void main() {
 
 // * ¿Crees que estamos infiriendo correctamente el tipo de dato?
 
-  
+    // Inferencia de tipo de dato:
+
+    // valor1 se infiere correctamente como String.
+    // valor2 tiene un error, ya que se intenta asignar un String a una variable que se ha declarado como int.
+    // balance está mal declarado; var y el tipo de dato explícito (String) no deben combinarse.
+
+
+
 // * ¿Hay algún tipo de error? ¿Cuál es?
 
+    // Errores:
+
+    // valor2 debería ser un int o el valor asignado debe ser un número.
+    // pi no puede ser reasignada porque const es inmutable.
+    // balance tiene un error de sintaxis en su declaración y asignación; debería ser var balance = 20.20; y la reasignación debe corregirse a balance = 10.1;.
