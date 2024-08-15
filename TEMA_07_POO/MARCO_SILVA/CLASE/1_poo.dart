@@ -82,4 +82,5 @@ class Animal {
   // FromMap
 
   /// Getters y Setters
+  
 }
