@@ -1,17 +1,27 @@
+import '1_1_animal.dart';
+
 void main() {
   //// Crear objetos
   /// 1. Perro
   /// 2. Gato
   /// 3. Elefante
 
-  final perro =
-      Animal(edad: 12, genero: "Macho", color: "Blaco", tipoDeComida: 'Carne');
+  final perro = Animal(
+    edad: 12,
+    genero: "Macho",
+    color: "Blaco",
+    tipoDeComida: 'Carne'
+  );
+
+  
+  final gato = Animal(
+  edad: 10,
+  genero: "Hembra",
+  color: "Amarillos",
+  tipoDeComida: 'Pez'
+  );
 
   print(perro.genero);
-  perro.comer();
-
-  final gato = Animal(
-      edad: 10, genero: "Hembra", color: "Amarillos", tipoDeComida: 'Pez');
   print(gato.sumar(1, 1));
 
   final elefante =
@@ -27,6 +37,16 @@ void main() {
   final laSumaEs = mono.sumar(12, 10);
   print(laSumaEs);
   print(mono.toString());
+
+  print(mono.tipoDeComida.toUpperCase());
+  print(mono.tipoDeComida.toUpperCase());
+  print(mono.tipoDeComida.toUpperCase());
+  print(mono.tipoDeComida.toUpperCase());
+  print(mono.tipoDeComida.toUpperCase());
+  print(mono.tipoDeComida.toUpperCase());
+  print(mono.tipoDeComida.toUpperCase());
+
+  print(mono.tipoDeComidaMayuscula);
 }
 
 // Crear clase
@@ -43,6 +63,8 @@ class Animal {
   final String color;
 
   final String tipoDeComida;
+
+  /// 3. Atributos privados
 
   /// Constructor
   /// Define con el nombre de la case y seguido por los atributos
@@ -76,11 +98,17 @@ class Animal {
     }.toString();
   }
 
-  // copyWith 
+  // copyWith
   // toMap
   // toJson
   // FromMap
 
   /// Getters y Setters
-  
+
+  // 1.
+  String get tipoDeComidaMayuscula {
+    return this.tipoDeComida.toLowerCase();
+  }
+
+  String get valorX => 'Esta es el getter';
 }
