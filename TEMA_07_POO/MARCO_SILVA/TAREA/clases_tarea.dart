@@ -1,3 +1,5 @@
+// Archivo: clases_tarea.dart
+
 void main() {
   // Probando la clase Cuenta
   Cuenta cuenta1 = Cuenta('Juan Perez', 100.50);
@@ -24,10 +26,6 @@ void main() {
 
   print('Es mayor de edad: ${persona2.esMayorDeEdad()}'); // Debería devolver false
 }
-
-
-
-// Archivo: clases_tarea.dart
 
 // Ejercicio 1: Clase Cuenta
 class Cuenta {
